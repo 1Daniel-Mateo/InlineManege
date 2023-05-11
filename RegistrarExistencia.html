@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de existencia</title>
+</head>
+<body>
+
+    <header>
+        <nav></nav>
+<section>
+
+<div>
+<form action="" method="post" class="formulario">
+    <h2>REGISTRO DE EXISTENCIAS</h2>
+
+    <table id="table">
+        <tr>
+            <th>PRODUTO</th>
+            <th>OBSEVACIONES</th>
+            <th>NUMERO SERIAL</th>
+            <th>FECHA DE GARANTIA</th>
+        </tr>
+    </table>
+<br>
+        <label id="label">Selecióne un producto:</label>    
+                    <select name="txttipo">
+                        <option disabled="disabled" selected="selected" id="producto">Productos</option>
+                        <option>Cargadores</option>
+                        <option>Audifonos</option>
+                        <option>Cuadernos</option>
+                        <option>Lapices</option>                    
+                    </select> 
+<br>
+<label id="label">Numero serial:</label>
+<input type="text" name="serial" id="serial" maxlength="15">
+<br>   
+        <label id="label">Fecha de garantia:</label>
+        <Input type="date" value="2023-01-3" min="2023-01-3" max="2023-12-31"></Input>
+<br>
+        <textarea name="Observaciones" id="mensage" cols="30" rows="10" placeholder="Observaciones" minlength="400px" maxlength="400px"></textarea>
+<br>       
+        <input type="button" value="REGISTRA NUEVA EXISTENCIA" id="boton">
+    </form>
+</div>
+
+</section>
+<footer></footer>
+</header>
+
+</body>
+</html>
